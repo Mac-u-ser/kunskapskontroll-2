@@ -1,0 +1,77 @@
+[2024-09-27 22:16:29][__main__] Starting data pipeline...
+[2024-09-27 22:16:29][databasesaver] Loading data...
+[2024-09-27 22:16:29][databasesaver] Making new database due to error ...
+[2024-09-27 22:16:29][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+[2024-09-27 22:16:29][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.HTML
+[2024-09-27 22:16:29][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500
+[2024-09-27 22:16:30][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4da30306524848402a44304e044c52443a444e3e4c3a3450324c040f4da301251401dcaedc1b|14049
+[2024-09-27 22:16:30][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4fa20306524848402a44304e044c52443a444e3e4c3a3450324c040f4fa201251401dcaedc1b|610273&format=json&redirects=1
+[2024-09-27 22:16:30][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lista över Upplands runinskrifter&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:16:31][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lista över Upplands runinskrifter
+[2024-09-27 22:17:44][__main__] Starting data pipeline...
+[2024-09-27 22:17:44][databasesaver] Loading data...
+[2024-09-27 22:17:44][databasesaver] Making new database due to error ...
+[2024-09-27 22:17:44][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+[2024-09-27 22:17:44][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.HTML
+[2024-09-27 22:17:44][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500
+[2024-09-27 22:17:44][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4da30306524848402a44304e044c52443a444e3e4c3a3450324c040f4da301251401dcaedc1b|14049
+[2024-09-27 22:17:45][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4fa20306524848402a44304e044c52443a444e3e4c3a3450324c040f4fa201251401dcaedc1b|610273&format=json&redirects=1
+[2024-09-27 22:17:45][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lista över Upplands runinskrifter&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:45][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Lista över Upplands runinskrifter
+[2024-09-27 22:17:47][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Brostenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:47][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Brostenen
+[2024-09-27 22:17:48][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bökstastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:48][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Bökstastenen
+[2024-09-27 22:17:49][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Folsbergastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:49][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Folsbergastenen
+[2024-09-27 22:17:50][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fällbro&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:50][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Fällbro
+[2024-09-27 22:17:51][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gliastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:51][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Gliastenen
+[2024-09-27 22:17:51][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Granbyhällen, Husby&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:52][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Granbyhällen, Husby
+[2024-09-27 22:17:52][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hammarbykistan&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:52][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Hammarbykistan
+[2024-09-27 22:17:53][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Jarlabankestenarna&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:53][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Jarlabankestenarna
+[2024-09-27 22:17:54][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Krogstastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:54][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Krogstastenen
+[2024-09-27 22:17:55][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kummelbystenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:55][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kummelbystenen
+[2024-09-27 22:17:56][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kvarntorpshällen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:56][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Kvarntorpshällen
+[2024-09-27 22:17:57][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ladbrostenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:57][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Ladbrostenen
+[2024-09-27 22:17:58][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Möjbrostenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:58][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Möjbrostenen
+[2024-09-27 22:17:59][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Norahällen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:17:59][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Norahällen
+[2024-09-27 22:17:59][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Orkestastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:18:00][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Orkestastenen
+[2024-09-27 22:18:00][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sigtunaamuletten&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:18:00][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sigtunaamuletten
+[2024-09-27 22:18:01][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sigtunadosan&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:18:01][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sigtunadosan
+[2024-09-27 22:18:02][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sälnastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:18:02][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Sälnastenen
+[2024-09-27 22:18:03][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Torsätrastenen&explaintext=1&exsectionformat=wiki
+[2024-09-27 22:18:03][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&prop=extracts&titles=Torsätrastenen
+[2024-09-27 22:18:04][databasesaver] Saving data...
+[2024-09-27 22:18:08][__main__] Starting data pipeline...
+[2024-09-27 22:18:08][databasesaver] Loading data...
+[2024-09-27 22:18:08][databasesaver] Load data: success.
+[2024-09-27 22:18:08][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+[2024-09-27 22:18:08][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.HTML
+[2024-09-27 22:18:08][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500
+[2024-09-27 22:18:08][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4da30306524848402a44304e044c52443a444e3e4c3a3450324c040f4da301251401dcaedc1b|14049
+[2024-09-27 22:18:09][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4fa20306524848402a44304e044c52443a444e3e4c3a3450324c040f4fa201251401dcaedc1b|610273&format=json&redirects=1
+[2024-09-27 22:18:19][databasesaver] Saving data...
+[2024-09-27 22:18:24][__main__] Starting data pipeline...
+[2024-09-27 22:18:24][databasesaver] Loading data...
+[2024-09-27 22:18:24][databasesaver] Load data: success.
+[2024-09-27 22:18:24][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.WIKI
+[2024-09-27 22:18:24][wikipediaapi] Wikipedia: language=sv, user_agent: UpplandsRunes" (anton.grigoriev@alumni.chalmers.se) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=ExtractFormat.HTML
+[2024-09-27 22:18:24][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500
+[2024-09-27 22:18:25][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4da30306524848402a44304e044c52443a444e3e4c3a3450324c040f4da301251401dcaedc1b|14049
+[2024-09-27 22:18:25][wikipediaapi] Request URL: https://sv.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Upplands runinskrifter&cmlimit=500&cmcontinue=page|524848402a44304e044c52443a444e3e4c3a3450324c040f4fa20306524848402a44304e044c52443a444e3e4c3a3450324c040f4fa201251401dcaedc1b|610273&format=json&redirects=1
+[2024-09-27 22:18:36][databasesaver] Saving data...
