@@ -59,7 +59,7 @@ for c in cat.categorymembers.values():
             logger.info('no translation in ', inskrift)
             trans = ' '
         else:
-            trans = tmp[tmp.find('Översättning\xa0till nusvenska:\n</p>\n<dl><dd>')+43:tmp.rfind('</dd></dl>')].strip()
+            trans = tmp[tmp.find('Översättning\xa0till nusvenska:\n</p>\n<dl><dd>')+45:tmp.rfind('</dd></dl>')].strip()
         #get revision ID
         params = {'action': 'parse','page': inskrift,'format': 'json'}
         response = requests.get(URL, headers=headers, params=params)
@@ -93,7 +93,7 @@ for c in cat.categorymembers.values():
                 logger.info('no translation in ', inskrift)
                 trans = ' '
             else:
-                trans = tmp[tmp.find('<p>Översättning\xa0till nusvenska:\n</p>\n<dl><dd>')+43:tmp.rfind('</dd></dl>')].strip()
+                trans = tmp[tmp.find('<p>Översättning\xa0till nusvenska:\n</p>\n<dl><dd>')+45:tmp.rfind('</dd></dl>')].strip()
             # we keep track of both wiki revisions and our own editions.
             df.loc[df['signum'] == inskrift] = [inskrift, page_data['parse']['revid'], lit, norm, trans, df.loc[df['signum'] == inskrift,'edition'].item() + 1 ]
 
